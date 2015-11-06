@@ -32,7 +32,7 @@ we have to look for a string that ends at '<session_timeout>/<ttl>, e.g.:
 	00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 
 	8701c800, 00000000, 00000000; 3598/3600>
 
-So our individual session will be:
+So our individual session is:
 	
 	00000000, c0a80122, 0000d444, c0a80132, 00000016, 00000006
 
