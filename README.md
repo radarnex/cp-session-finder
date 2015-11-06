@@ -8,10 +8,10 @@ firewall.
 Connection table description and values are explained on the sk65133.
 
 As stated on the SK, most connections will create the following four entries in conns table:
-	<0, Client_IP, Client_Port, Server_IP, Server_Port, Protocol_Number> = Client side, inbound
-	<1, Client_IP, Client_Port, Server_IP, Server_Port, Protocol_Number> = Server side, outbound
-	<0, Server_IP, Server_Port, Client_IP, Client_Port, Protocol_Number> = Server side, inbound
-	<1, Server_IP, Server_Port, Client_IP, Client_Port, Protocol_Number> = Client side, outbound
+- <0, Client_IP, Client_Port, Server_IP, Server_Port, Protocol_Number> = Client side, inbound
+- <1, Client_IP, Client_Port, Server_IP, Server_Port, Protocol_Number> = Server side, outbound
+- <0, Server_IP, Server_Port, Client_IP, Client_Port, Protocol_Number> = Server side, inbound
+- <1, Server_IP, Server_Port, Client_IP, Client_Port, Protocol_Number> = Client side, outbound
 
 Problem is the values of a connection are in hex so grep is not possible without
 doing a conversion.
