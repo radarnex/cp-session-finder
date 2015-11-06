@@ -6,9 +6,6 @@ Check Point Session Finder
 
 """
 
-__version__ = 0.1
-
-
 import sys
 import re
 
@@ -72,7 +69,6 @@ def main():
 	grep_pattern = []
 
 	for arg in sys.argv[1:]:
-		#print arg
 		if validate_ipv4(arg):
 			grep_pattern += [ip_to_hex(arg)]
 		else:

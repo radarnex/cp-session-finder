@@ -38,7 +38,6 @@ for the protocol number):
 
 ToDo
 ----------
-- Specific find utilities
+- Specific session find utilities
 - Direct interaction with firewall 
-- IPv6 support
 - Unit testing
